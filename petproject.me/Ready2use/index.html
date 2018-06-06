@@ -1,0 +1,208 @@
+
+<!DOCTYPEhtml>
+<html>
+
+<head>
+
+    <title>
+FINALS
+    </title>
+
+<!--compiled and minified css-->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
+<link href="css/style.css" type="text/css" rel="stylesheet"/>
+<link href="js/jquery/jquery-ui.css" rel="stylesheet">
+<link  href="fontawesome-all.min.css" type="text/css" rel="stylesheet">
+<!-- compiled and minified js-->  
+<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="js/jquery/jquery-ui.js" type="text/javascript"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</head>
+<body> 
+    
+<!--Nav bar-->
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg  " >
+        <a class="navbar-brand " href="#" style="color:white";>FI<span style="color:grey">NA</span>LS</a>
+        <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="color:white">MENU</span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active py-3">
+              <a class="nav-link" href="#" style="color:white";>Home <span class="sr-only">(current)</span></a>
+            </li>
+            <!--Navbar signin -->
+            <li class="nav-item dropdown py-3" >
+                <a style="color:white"; class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Sign in
+                </a>
+                <div class="dropdown-menu">
+                    <form class="px-4 py-3">
+                      <div class="form-group">
+                        <label for="exampleDropdownFormEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleDropdownFormPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                      </div>
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                        <label class="form-check-label" for="dropdownCheck">
+                          Remember me
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-primary" style="color:white";>Sign in</button>
+                    </form>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Forgot password?</a>
+                  </div>
+              </li>
+              <!--Navbar signup-->
+            <li class="nav-item dropdown py-3">
+              <a style="color:white"; class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sign up
+              </a>
+              
+                  <div class="dropdown-menu">
+                    <form class="px-4 py-3">
+                        <div class="form-group">
+                            <label for="exampleDropdownFormEmail1">First name</label>
+                            <input type="text" class="form-control" id="First name" placeholder="First name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleDropdownFormEmail1">Last name</label>
+                            <input type="text" class="form-control" id="Last name" placeholder="Last name">
+                        </div>
+                      <div class="form-group">
+                        <label for="exampleDropdownFormEmail1">Email address</label>
+                        <input type="email" class="form-control" id="email@adress.com" placeholder="email@adress.com">
+                      </div>
+                      <div class="form-group">
+                            <label for="exampleDropdownFormEmail1">Phone number</label>
+                            <input type="number" class="form-control" id="phone number" placeholder="+23408100000">
+                          </div>
+                      <div class="form-group">
+                        <label for="exampleDropdownFormPassword1">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="password">
+                      </div>
+                      <div class="form-group">
+                            <label for="exampleDropdownFormPassword1">Confirm Password</label>
+                            <input type="password" class="form-control" id="Confirm pass" placeholder="Password">
+                          </div>
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                        <label class="form-check-label" for="dropdownCheck">
+                          Remember me
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Sign in</button>
+                    </form>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Forgot password?</a>
+                  </div>
+                  
+            </li>
+            <!--Multiple navbar-->
+            <li class="nav-item dropdown py-3">
+                <a style="color:white"; class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Information
+                </a>
+                <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                        <li class="dropdown-item"><a href="#">Some action</a></li>
+                        <li class="dropdown-item"><a href="#">Some other action</a></li>
+                        <li class="dropdown-divider"></li>
+                        <li class="dropdown-submenu">
+                          <a  class="dropdown-item" tabindex="-1" href="#">Hover me for more options</a>
+                          <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a tabindex="-1" href="#">Second level</a></li>
+                            <li class="dropdown-submenu">
+                              <a class="dropdown-item" href="#">Even More..</a>
+                              <ul class="dropdown-menu">
+                                  <li class="dropdown-item"><a href="#">3rd level</a></li>
+                                    <li class="dropdown-submenu"><a class="dropdown-item" href="#">another level</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item"><a href="#">4th level</a></li>
+                                        <li class="dropdown-item"><a href="#">4th level</a></li>
+                                        <li class="dropdown-item"><a href="#">4th level</a></li>
+                                    </ul>
+                                  </li>
+                                    <li class="dropdown-item"><a href="#">3rd level</a></li>
+                              </ul>
+                            </li>
+                            <li class="dropdown-item"><a href="#">Second level</a></li>
+                            <li class="dropdown-item"><a href="#">Second level</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                
+                
+              </li>
+              
+          </ul>
+          <!--Navbar search BAR-->
+          <form class="form-inline  my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <div > 
+      <h1 class="text-center">We will take care of your hardwork for you</h1>
+                <p class="text-center"><span><a href="#" style="color:white"> Trust us now</a></span></p>
+      </div>
+
+      <div class="row">
+            <img class="mx-auto d-block" src="images/books1.jpg" alt="Finals" width="100%" height="400px"/>
+        <div style="position: absolute" class="col-md-12">
+            <h1 class=" text-center pt-5" style="font-size: 100px";>FINALS</h1>
+            <p  style="color:white"; class="lead text-center">  At Finals all we do is safeguard, manage and help knowledge grow</p>
+             <button class=" btn btn-block btn-secondary col-md-2 mx-auto"><a href="#" style="color:white"> Get started</a></button>
+        </div>
+               
+      </div>
+      
+          <div class="container-fluid" ></div>
+                <div id="carouselContent" class="carousel slide" data-ride="carousel" style="background-color:gray; width: 100%">
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active text-center p-4">
+                             <p><a href="#" style="color:white"> manage your work</a></p>
+                        </div>
+                        <div class="carousel-item text-center p-4">
+                            
+                            <p><a href="#" style="color:white">secure your work</a></p>
+                        </div>
+                        <div class="carousel-item text-center p-4">
+                            
+                            <p><a href="#" style="color:white"> share knowledge</a></p>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+      
+      <div class="row">
+            <p  class="col-md-12 text-center">&copy: copywrite @finals 2018</p>
+      </div>
+</div>
+
+
+
+      
+</body>
+</html>
+
+<script>
+
+
+</script>
